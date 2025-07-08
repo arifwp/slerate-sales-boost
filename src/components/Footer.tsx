@@ -3,7 +3,7 @@ const navigation = {
     {
       name: "Facebook",
       href: "https://facebook.com/slerate",
-      icon: (props: any) => (
+      icon: (props: React.SVGProps<SVGSVGElement>) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
             fillRule="evenodd"
@@ -16,7 +16,7 @@ const navigation = {
     {
       name: "Instagram",
       href: "https://instagram.com/sleratehq",
-      icon: (props: any) => (
+      icon: (props: React.SVGProps<SVGSVGElement>) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
             fillRule="evenodd"
@@ -29,7 +29,7 @@ const navigation = {
     {
       name: "LinkedIn",
       href: "https://linkedin.com/company/slerate",
-      icon: (props: any) => (
+      icon: (props: React.SVGProps<SVGSVGElement>) => (
         <svg
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
