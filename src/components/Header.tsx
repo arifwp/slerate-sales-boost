@@ -53,7 +53,7 @@ export const Header = () => {
             },
           }}
         >
-          {navigations.map((item, i) => (
+          {navigations.map((item) => (
             <motion.div
               key={item.id}
               variants={{
