@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 export const HeroSection = () => {
   return (
     <section id="home" className="scroll-section">
-      <div className="w-full max-w-4xl mx-auto px-4 sm:px-8 pt-4 pb-4 sm:pb-0 gap-4 sm:gap-10 flex flex-col overflow-hidden">
+      <div className="w-full mx-auto px-4 sm:px-8 pt-4 pb-4 sm:pb-0 gap-4 sm:gap-10 flex flex-col overflow-hidden">
         <motion.h1
           className="text-4xl sm:text-5xl md:text-7xl font-bold text-center sm:text-start"
           initial={{ opacity: 0, y: 40 }}
@@ -52,7 +52,7 @@ export const HeroSection = () => {
           <div className="relative w-full h-[400px]">
             <Image
               fill
-              className="object-cover object-bottom rounded-t-xl"
+              className="object-cover object-center rounded-t-xl"
               src="/assets/bg-hero.webp"
               alt="People Cheering"
             />

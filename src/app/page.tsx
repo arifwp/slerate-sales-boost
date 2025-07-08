@@ -8,7 +8,7 @@ import { JoinSection } from "@/sections/JoinSection";
 export default function Home() {
   return (
     <div className="w-full mx-auto">
-      <main className="w-full max-w-6xl mx-auto flex flex-col relative overflow-y-auto">
+      <main className="w-full mx-auto flex flex-col relative">
         <Header />
 
         <HeroSection />
