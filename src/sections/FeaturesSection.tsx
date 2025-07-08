@@ -59,7 +59,7 @@ export const FeaturesSection = () => {
   return (
     <section
       id="features"
-      className="scroll-section w-full max-w-4xl mx-auto px-8 py-10 gap-8 flex flex-col"
+      className="scroll-section w-full mx-auto px-8 py-10 gap-8 flex flex-col"
     >
       <motion.div
         className="w-full gap-2 flex flex-col"
